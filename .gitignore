@@ -1,0 +1,6 @@
+node_modules/
+.env
+*.json
+.browser-profile/
+logs/
+*.log

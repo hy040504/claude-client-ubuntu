@@ -1,0 +1,14 @@
+[Unit]
+Description=Claude CLI Client Service
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/claude-client-ubuntu
+ExecStart=/usr/bin/npm run chat-prompt
+Restart=always
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target
