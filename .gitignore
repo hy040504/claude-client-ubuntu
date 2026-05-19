@@ -4,3 +4,5 @@ node_modules/
 .browser-profile/
 logs/
 *.log
+
+send_message.js
